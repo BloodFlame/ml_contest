@@ -1,5 +1,4 @@
-a = 100;
-while(a>0)
-    fprintf('hello %d\n', a);
-    a = a-1;
-end
+filename = 'data/gy_contest_link_traveltime_training_data.txt';
+delimiterIn = ';';
+headerlinesIn = 1;
+A = importdata(filename,delimiterIn,headerlinesIn);
